@@ -37816,6 +37816,8 @@ with pkgs;
 
   nethack-x11 = callPackage ../games/nethack { x11Mode = true; };
 
+  jnethack = callPackage ../games/nethack/jnethack.nix { };
+
   netris = callPackage ../games/netris { };
 
   neverball = callPackage ../games/neverball { };
